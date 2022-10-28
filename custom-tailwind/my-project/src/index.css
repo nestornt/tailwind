@@ -1,0 +1,16 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-2xl p-0 m-0;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h2, p {
+    @apply my-6 mx-4;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
